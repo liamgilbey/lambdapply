@@ -1,12 +1,26 @@
 Package: lambdapply
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Apply R functions in AWS Lambda
+Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Liam", "Gilbey", , "liam.gilbey@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9747-6608"))
+Description: lambdapply aims to provide a familiar *apply syntax to R users, with
+  an AWS lambda backend. This allows R users to scale R computation horizontally, and
+  perform all iterations in a parallel fashion.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.0
+Imports:
+  R6,
+  crayon,
+  clisymbols,
+  paws,
+  lambdr
+Suggests: 
+    testthat (>= 3.0.0),
+    lifecycle
+Config/testthat/edition: 3
+URL: https://github.com/liamgilbey/lambdapply
+BugReports: https://github.com/liamgilbey/lambdapply/issues
+
