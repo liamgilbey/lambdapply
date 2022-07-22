@@ -35,3 +35,11 @@ You can install the development version of lambdapply from
 # install.packages("devtools")
 devtools::install_github("liamgilbey/lambdapply")
 ```
+
+## Acknowledgements
+
+`lambdapply` would not be possible without the work dedicated to the
+following AWS-R packages:
+
+-   [paws](https://github.com/paws-r/paws)
+-   [lambdr](https://github.com/mdneuzerling/lambdr)
