@@ -13,7 +13,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-# lambdapply
+
+# lambdapply <img src="man/figures/logo.png" align="right" width="200" />
 
 <!-- badges: start -->
 <!-- badges: end -->
