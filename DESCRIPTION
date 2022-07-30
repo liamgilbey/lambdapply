@@ -16,7 +16,8 @@ Imports:
   crayon,
   clisymbols,
   paws,
-  lambdr
+  lambdr,
+  uuid
 Suggests: 
     testthat (>= 3.0.0),
     lifecycle

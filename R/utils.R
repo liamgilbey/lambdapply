@@ -1,3 +1,11 @@
+#' Align names
+.aligner <- function(names){
+  lengths <- nchar(names)
+  offsets <- (max(lengths) - lengths) + 1
+  offsets <- sapply(offsets, function(x){paste0(rep(" ", x), collapse = "")})
+  paste0(names, ":", offsets)
+}
+
 
 #' Error message
 #'
